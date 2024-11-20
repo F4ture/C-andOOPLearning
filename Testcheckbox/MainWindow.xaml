@@ -1,0 +1,44 @@
+﻿<Window x:Class="Test123321.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test123321"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Name="Questions2">
+            <TextBlock Name="Uwu1">Когда в доту?</TextBlock>
+            <RadioButton Name="rButton5" GroupName="Quest2" Content="Завтра"></RadioButton>
+            <RadioButton Name="rButton6" GroupName="Quest2" Content="Никогда"></RadioButton>
+            <RadioButton Name="rButton7" GroupName="Quest2" Content="Через час"></RadioButton>
+            <RadioButton Name="rButton8" GroupName="Quest2" Content="Прямо сейчас"></RadioButton>
+        </StackPanel>
+        <StackPanel Name="Questions1">
+            <TextBlock Name="Special">Можно 100 баллов?</TextBlock>
+            <RadioButton Name="rButton9" GroupName="Quest3" Content="Уже ставлю"></RadioButton>
+            <RadioButton Name="rButton10" GroupName="Quest3" Content="Нет"></RadioButton>
+            <RadioButton Name="rButton11" GroupName="Quest3" Content="Конечно"></RadioButton>
+            <RadioButton Name="rButton12" GroupName="Quest3" Content="За ..... любой вопрос?"></RadioButton>
+        </StackPanel>
+        <StackPanel Name="Questions3">
+            <TextBlock Name="HaHaHa">C# любишь?</TextBlock>
+            <RadioButton Name="rButton13" GroupName="Quest1" Content="Да"></RadioButton>
+            <RadioButton Name="rButton14" GroupName="Quest1" Content="Дат"></RadioButton>
+            <RadioButton Name="rButton15" GroupName="Quest1" Content="Возможно"></RadioButton>
+            <RadioButton Name="rButton16" GroupName="Quest1" Content="Нет(Лгу)"></RadioButton>
+        </StackPanel>
+        <StackPanel Name="Questions4">
+            <TextBlock>Питон?</TextBlock>
+            <RadioButton Name="rButton17" GroupName="Quest4" Content="Пайтон"></RadioButton>
+            <RadioButton Name="rButton18" GroupName="Quest4" Content="Да"></RadioButton>
+            <RadioButton Name="rButton19" GroupName="Quest4" Content="Пэйтон"></RadioButton>
+            <RadioButton Name="rButton20" GroupName="Quest4" Content="Петончег"></RadioButton>
+        </StackPanel>
+        <StackPanel Name="Result">
+            <Button Name="Ready" Content="Готово" Click="Ready_Click"></Button>
+            <TextBlock Name="Answer"></TextBlock>
+            <Button Name="Next" Content="Далее" Click="Next_Button" Visibility="Hidden"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
