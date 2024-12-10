@@ -26,24 +26,73 @@
                 <ColumnDefinition Width="*"></ColumnDefinition>
                 <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Button Name="ButtonDivide" Content="/" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonDivide_Click"/>
+            <Button Name="ButtonDivide" Content="/" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonDivide_Click">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Ето поделить
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
             <Button Name="Button7" Content="7" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
             <Button Name="Button4" Content="4" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
             <Button Name="Button1" Content="1" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
-            <Button Name="ButtonClear" Content="Clear" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonClear_Click"  />
+            <Button Name="ButtonClear" Content="Clear" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonClear_Click">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Clear = Очистить understand?
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
             <Button Name="Button8" Content="8" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
             <Button Name="Button5" Content="5" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
             <Button Name="Button2" Content="2" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
-            <Button Name="ButtonCount" Content="=" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonCount_Click"  />
-            <Button Name="Button9" Content="9" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
+            <Button Name="ButtonCount" Content="=" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonCount_Click">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Провести подсчёта так сказать
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Name="Button9" Content="9" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click">
+            </Button>
             <Button Name="Button6" Content="6" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
             <Button Name="Button3" Content="3" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
-            <Button Name="Buttonplus" Content="-/+" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonMinusAdd"/>
-            <Button Name="ButtonMultiply" Content="*" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonMultiply_Click"  />
-            <Button Name="ButtonMinus" Content="-" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonMinus_Click"  />
-            <Button Name="ButtonPlus" Content="+" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonPlus_Click"  />
+            <Button Name="Buttonplus" Content="-/+" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonMinusAdd">
+                <Button.ToolTip>
+                    <ToolTip>
+                       Сделать число отриц(ставит минус в начале)
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Name="ButtonMultiply" Content="*" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonMultiply_Click"  >
+                <Button.ToolTip>
+                    <ToolTip>
+                        Умножает
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Name="ButtonMinus" Content="-" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonMinus_Click"  >
+                <Button.ToolTip>
+                    <ToolTip>
+                        1000-7
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+            <Button Name="ButtonPlus" Content="+" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonPlus_Click"  >
+                <Button.ToolTip>
+                    <ToolTip>
+                        Мышь считала дырки в сыре 3+2=?
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
             <Button Name="Button0" Content="0" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="ButtonAdd_Click"/>
-            <Button Name="ButtonDot" Content="," HorizontalAlignment="Center" Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="Button_Dot"/>
+            <Button Name="ButtonDot" Content="," HorizontalAlignment="Center" Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" Height="59" Width="70" Click="Button_Dot">
+                <Button.ToolTip>
+                    <ToolTip>
+                        Лишь 0,0000000000001 знают зачем эта кнопка
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
 
         </Grid>
     </Grid>
