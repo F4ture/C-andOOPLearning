@@ -1,0 +1,34 @@
+﻿<Window x:Class="TreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TreeView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TreeView>
+            <TreeViewItem Header="Языки программирования">
+                <TreeViewItem Header="Компилируемые">
+                    <TreeViewItem Header="C#" />
+                    <TreeViewItem Header="C++" Selected="TreeViewItem_OnSelected" />
+                    <TreeViewItem Header="Java" Selected="TreeViewItem_OnSelected" />
+                    <TreeViewItem Header="Go" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="C" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="Rust" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="Pascal" Selected="TreeViewItem_OnSelected"/>
+
+
+                </TreeViewItem>
+                <TreeViewItem Header="Интерпритируемые">
+                    <TreeViewItem Header="Python" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="PHP" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="JavaScript" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="Perl" Selected="TreeViewItem_OnSelected"/>
+                    <TreeViewItem Header="Ruby" Selected="TreeViewItem_OnSelected"/>
+
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>
