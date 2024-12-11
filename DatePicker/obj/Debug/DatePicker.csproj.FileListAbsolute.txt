@@ -1,0 +1,15 @@
+C:\Users\Ваня\source\repos\DatePicker\bin\Debug\DatePicker.exe.config
+C:\Users\Ваня\source\repos\DatePicker\bin\Debug\DatePicker.exe
+C:\Users\Ваня\source\repos\DatePicker\bin\Debug\DatePicker.pdb
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.csproj.AssemblyReference.cache
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\MainWindow.g.cs
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\App.g.cs
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker_MarkupCompile.cache
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker_MarkupCompile.lref
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\MainWindow.baml
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.g.resources
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.Properties.Resources.resources
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.csproj.GenerateResource.cache
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.csproj.CoreCompileInputs.cache
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.exe
+C:\Users\Ваня\source\repos\DatePicker\obj\Debug\DatePicker.pdb
